@@ -23,4 +23,5 @@ public class ItemsGroup extends Model {
     public List<Item> items() {
         return getMany(Item.class, "item_group");
     }
+
 }
